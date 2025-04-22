@@ -1,7 +1,7 @@
 # FFmpegKit ![GitHub release](https://img.shields.io/badge/release-v6.0-blue.svg) ![Maven Central](https://img.shields.io/maven-central/v/com.arthenica/ffmpeg-kit-min) ![CocoaPods](https://img.shields.io/cocoapods/v/ffmpeg-kit-ios-min) ![pub](https://img.shields.io/pub/v/ffmpeg_kit_flutter.svg) ![npm](https://img.shields.io/npm/v/ffmpeg-kit-react-native.svg)
 
 ## Use
-作者放弃维护了，并且删除了之前的包，目前直接 pod 'ffmpeg-kit-ios-full-gpl'，会出现 404
+作者停止维护了，并且删除了之前的包，目前直接 pod 'ffmpeg-kit-ios-full-gpl'，会出现 404
 
 iOS 6.0 & 6.0.LTS 可以通过以下方式导入
 
