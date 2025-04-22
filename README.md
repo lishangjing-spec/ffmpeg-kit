@@ -31,6 +31,7 @@ pod 'ffmpeg-kit-ios-full-gpl', :podspec => 'https://github.com/lishangjing-spec/
 ```
 
 因为我不想上传至 Cococapods 看起来很乱，虽然未来可能会有很多人上传，希望未来有老大在把这个项目接起来
+
 ---
 
 
