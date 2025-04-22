@@ -14,6 +14,23 @@ pod 'ffmpeg-kit-ios-full-gpl', :podspec => 'https://github.com/lishangjing-spec/
 pod 'ffmpeg-kit-ios-full-gpl', :podspec => 'https://github.com/lishangjing-spec/ffmpeg-kit/releases/download/v6.0/ffmpeg-kit-ios-full-gpl.podspec'
 ```
 
+**当你私有库中需要引入**
+
+私有库中保持原来不变
+```
+Pod::Spec.new do |s|
+ s.name = 'Base'
+ s.dependency 'ffmpeg-kit-ios-full-gpl', '~> 6.0'
+end
+```
+
+在 Podfile 文件中，指定依赖
+```
+pod 'Base'
+pod 'ffmpeg-kit-ios-full-gpl', :podspec => 'https://github.com/lishangjing-spec/ffmpeg-kit/releases/download/v6.0/ffmpeg-kit-ios-full-gpl.podspec'
+```
+
+因为我不想上传至 Cococapods 看起来很乱，虽然未来可能会有很多人上传，希望未来有老大在把这个项目接起来
 ---
 
 
